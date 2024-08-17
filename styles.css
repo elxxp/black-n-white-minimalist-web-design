@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+body {
+    background-color: white;
+    font-family: 'Poppins', 'sans-serif';
+    padding: 20px 1.8%;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+
+
+/* header */
+header {
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 10px 3.5%;
+}
+
+/* */
+.head-logo a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+/* */
+.head-fill il a {
+    padding-inline: 15px;
+    text-decoration: none;
+    color: black;
+}
+.head-fill il a:hover {
+    font-weight: 600;
+}
+
+/* */
+.head-account a {
+    padding-inline: 15px;
+}
+.login-btn {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.started {
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    font-weight: 600;
+    color: white;
+}
+
+
+/* contents page */
+.content {
+    margin: 3% 0 0 0;
+    display: flex;
+}
+.image-container img {
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 0 20px 0 0;
+}
+.paragraph-container {
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 5px 3%;
+    border-radius: 10px;
+}
+
+
+/* login page styles */
+.login-content {
+    margin: 4% 0 0 0;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    background-color: white;
+    padding: 15px 6%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.input-box {
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 10px 20px;
+    border-radius: 40px;
+    margin: 20px 0;
+}
+.input-box input {
+    font-family: 'Poppins';
+    font-size: 14px;
+    width: 200px;
+    padding: 1px 5px;
+    border: none;
+    outline: none;
+}
+
+/* */
+.forgot {
+    text-align: right;
+}
+.forgot a {
+    text-decoration: none;
+    color: black;
+    font-size: small;
+}
+.forgot a:hover {
+    text-decoration: underline;
+}
+
+
+.pro-login input {
+    font-family: "Poppins";
+    font-weight: bold;
+    width: 100%;
+    padding: 10px 5px;
+    margin: 10px 0;
+    outline: none;
+    border: none;
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.login-bottom p {
+    font-size: small
+}
+.login-bottom a {
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+.login-bottom a:hover {
+    text-decoration: underline;
+}
+
+
+/* create page styles */
+.create-content {
+    margin: 4% 0 0 0;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    background-color: white;
+    padding: 15px 6%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.input-box {
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 10px 20px;
+    border-radius: 40px;
+    margin: 20px 0;
+}
+.input-box input {
+    font-family: 'Poppins';
+    font-size: 14px;
+    width: 200px;
+    padding: 1px 5px;
+    border: none;
+    outline: none;
+}
+
+/* */
+.pro-create input {
+    font-family: "Poppins";
+    font-weight: bold;
+    width: 100%;
+    padding: 10px 5px;
+    margin: 10px 0;
+    outline: none;
+    border: none;
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.create-bottom p {
+    font-size: small
+}
+.create-bottom a {
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+.create-bottom a:hover {
+    text-decoration: underline;
+}
+
+
+/* forgot page styles */
+.forgot-content {
+    margin: 4% 0 0 0;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    background-color: white;
+    padding: 15px 6%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.input-box {
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 10px 20px;
+    border-radius: 40px;
+    margin: 20px 0;
+}
+.input-box input {
+    font-family: 'Poppins';
+    font-size: 14px;
+    width: 200px;
+    padding: 1px 5px;
+    border: none;
+    outline: none;
+}
+
+/* */
+.forgot {
+    text-align: right;
+}
+.forgot a {
+    text-decoration: none;
+    color: black;
+    font-size: small;
+}
+.forgot a:hover {
+    text-decoration: underline;
+}
+
+
+.pro-forgot input {
+    font-family: "Poppins";
+    font-weight: bold;
+    width: 100%;
+    padding: 10px 5px;
+    margin: 10px 0;
+    outline: none;
+    border: none;
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.forgot-bottom p {
+    font-size: small
+}
+.forgot-bottom a {
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+.forgot-bottom a:hover {
+    text-decoration: underline;
+}
+
+
+/* success process */
+.success-content {
+    margin: 4% 0 0 0;
+    text-align: center;
+    display: inline-block;
+    justify-content: center;
+    background-color: white;
+    padding: 15px 6%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.success-back {
+    margin: -20px 0 0 0;
+}
+.success-back a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.success-back a:hover {
+    text-decoration: underline;
+}

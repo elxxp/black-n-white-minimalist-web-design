@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up | YourWeb</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <header>
+        <div class="head-logo">
+            <p><a href="index.html"><b>YourWeb</b></a></p>
+        </div>
+
+        <div class="head-fill">
+            <ul>
+                <il><a href="index.html">Home</a></il>
+                <il><a href="#about">About</a></il>
+                <il><a href="#contact">Contact</a></il>
+                <il><a href="https://github.com/elxxp">GitHub</a></il>
+            </ul>
+        </div>
+
+        <div class="head-account">
+            <ul>
+                <il><a class="login-btn" href="login.html">Login</a></il>
+                <il><a class="started" href="create.html">Get Started</a></il>
+            </ul>
+        </div>
+    </header>
+</head>
+<body>
+    <center>
+        <div class="create-content">
+            <form action="crt-success.php" method="post">
+            <div>
+                <h2>Welcome!</h2>
+            </div>
+    
+            <div class="input-box">
+                <input type="text" name="name" placeholder="Name" required><i class='bx bxs-face'></i>
+            </div>
+
+            <div class="input-box">
+                <input type="email" name="mail" placeholder="Email" required><i class='bx bxs-envelope'></i>
+            </div>
+
+            <div class="input-box">
+                <input type="text" name="usn" placeholder="Create username" required><i class='bx bxs-user'></i>
+            </div>
+    
+            <div class="input-box">
+                <input type="password" name="pass" placeholder="Create password" required><i class='bx bxs-lock-alt' ></i>
+            </div>
+            
+            <div class="pro-create">
+                <input type="submit" value="create">
+            </div>
+    
+            <div class="create-bottom">
+                <p>Already have a account? <a href="login.html">Login</a></p>
+            </div>
+            </form>
+        </div>
+    </center>
+</body>
+</html>
